@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void) {
 	int jungsu = 1;
@@ -13,7 +14,7 @@ int main(void) {
 	printf("정수: %d, 문자: %c, 더블: %lf, 플롯: %f\n", jungsu, munja, sosu, sosu1);
 	printf("문자열: %s", mjyeol);
 
-	for (int i = 0; i <= 11; i++) {
+	for (int i = 0; i <= strlen(mjyeol); i++) {
 		printf("%c", mjyeol[i]);
 	}
 

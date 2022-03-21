@@ -6,7 +6,11 @@ int main(void) {
 	double sosu = 3.14;
 	float sosu1 = 0.001592f;
 
-	printf("정수: %d, 문자: %c, 더블: %lf, 플롯: %f", jungsu, munja, sosu, sosu1);
+	char mjyeol[12] = "Hello World";
+	//문자는 띄어쓰기 포함 11개
+	//배열의 길이는 11+1
 
+	printf("정수: %d, 문자: %c, 더블: %lf, 플롯: %f\n", jungsu, munja, sosu, sosu1);
+	printf("문자열: %s", mjyeol);
 	return 0;
 }

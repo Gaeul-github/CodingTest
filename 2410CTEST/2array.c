@@ -5,10 +5,10 @@ int main() {
 
 
 	for (int i = 0; i < 3; i++) {
-		printf("%d\n", arr[i][0]);
-		printf("%d\n", arr[i][1]);
-		printf("%d\n", arr[i][2]);
-		printf("%d\n", arr[i][3]);
+		for (int j = 0; j < 4; j++) {
+			printf("%d\n", arr[i][j]);
+		}
+		
 	}
 	
 }

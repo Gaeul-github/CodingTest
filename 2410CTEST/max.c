@@ -1,12 +1,11 @@
 #include <stdio.h>
-
-int main() {
+void getMax(int *arr, int length) {
 
 	int temp = -1;
 	int idx = 99;
 	int arr[10] = { 8,  9, 20, 30, 3, 4, 5, 6, 23, 54 };
 
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < length; i++) {
 		if (arr[i] > temp) {
 			temp = arr[i];
 			idx = i;
@@ -14,6 +13,9 @@ int main() {
 	}
 	printf("%d ", temp);
 	printf("%d ", idx);
-	
-	return 0;
+}
+
+int main(void) {
+	int arr1[10] = { 8,  9, 20, 30, 3, 4, 5, 6, 23, 54 };
+	getMax(arr1, 10);
 }

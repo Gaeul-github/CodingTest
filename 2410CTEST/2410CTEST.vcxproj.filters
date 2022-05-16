@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="min2.c">
+    <ClCompile Include="middle.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
